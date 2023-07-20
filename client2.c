@@ -31,7 +31,6 @@ int main() {
 
     printf("Received random number from server: %d\n", random_number);
 
-    // Close the socket
     close(client_socket);
 
     return 0;
